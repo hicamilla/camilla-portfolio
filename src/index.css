@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-bg: #F2F0EC;
+  --color-text: #1B242A;
+  --color-accent: #7EACB5;
+  --color-surface: #EDD9B0;
+  --color-muted: #6B7B82;
+
+  --font-heading: 'Syne', sans-serif;
+  --font-body: 'Urbanist', sans-serif;
+}
+
 body {
-  font-family: sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
 }
