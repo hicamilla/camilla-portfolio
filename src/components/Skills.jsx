@@ -5,7 +5,7 @@ const buildSkills = [
 ]
 
 const marketingSkills = [
-  'GA4', 'HubSpot', 'Looker Studio', 'GTG', 'Amplitude', 'Semrush'
+  'GA4', 'HubSpot', 'Looker Studio', 'GTM', 'Amplitude', 'Semrush'
 ]
 
 function Skills() {

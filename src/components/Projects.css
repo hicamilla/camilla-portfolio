@@ -1,0 +1,132 @@
+.projects {
+  padding: 80px 48px;
+  border-top: 0.5px solid var(--color-surface);
+}
+
+.projects-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.projects-header {
+  display: flex;
+  align-items: baseline;
+  gap: 48px;
+  margin-bottom: 40px;
+}
+
+.projects-label {
+  font-size: 11px;
+  letter-spacing: 0.12;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  flex-shrink: 0;
+  width: 120px;
+}
+
+.projects-heading {
+  font-family: var(--font-heading);
+  font-size: clamp(24px, 2.8vw, 36px);
+  font-weight: 700;
+  color: var(--color-text);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.project-card {
+  border-radius: 10px;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+}
+
+.project-card--dark {
+  background: var(--color-text);
+}
+
+.project-card--accent {
+  background: var(--color-accent);
+}
+
+.project-number {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: rgba(242, 240, 236, 0.4);
+  margin-bottom: 40px;
+}
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-title {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-bg);
+  line-height: 1.2;
+}
+
+.project-card--accent .project-title {
+  color: var(--color-text);
+}
+
+.project-desc {
+  font-size: 13px;
+  color: rgba(242, 240, 236, 0.6);
+  line-height: 1.6;
+}
+
+.project-card-accent .project-desc {
+  color: rgba(27, 36, 42, 0.7);
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.project-tag {
+  font-size: 10px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--color-bg);
+  letter-spacing: 0.04em;
+}
+
+.project-card--accent .project-tag {
+  background: rgba(0, 0, 0, 0.1);
+  color: var(--color-text);
+}
+
+.project-link {
+  font-size: 11px;
+  color: var(--color-accent);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.project-card--accent .project-link {
+  color: var(--color-text);
+}
+
+.project-link:hover {
+  opacity: 0.7;
+}
