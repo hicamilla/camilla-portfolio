@@ -1,0 +1,79 @@
+.contact {
+  padding: 80px 48px;
+  border-top: 0.5px solid var(--color-surface);
+}
+
+.contact-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+}
+
+.contact-label {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  flex-shrink: 0;
+  width: 120px;
+  padding-top: 6px;
+}
+
+.contact-content {
+  flex: 1;
+}
+
+.contact-heading {
+  font-family: var(--font-heading);
+  font-size: clamp(24px, 2.8vw, 36px);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.contact-sub {
+  font-size: 16px;
+  color: var(--color-muted);
+  line-height: 1.8;
+  max-width: 520px;
+  margin-bottom: 32px;
+}
+
+.contact-btn {
+  display: inline-block;
+  background: var(--color-text);
+  color: var(--color-bg);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: opacity 0.2s ease;
+  margin-bottom: 32px;
+}
+
+.contact-btn:hover {
+  opacity: 0.8;
+}
+
+.contact-links {
+  display: flex;
+  gap: 24px;
+}
+
+.contact-links a {
+  font-size: 13px;
+  color: var(--color-muted);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+
+.contact-links a:hover {
+  color: var(--color-text);
+}
