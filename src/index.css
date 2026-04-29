@@ -5,14 +5,14 @@
 }
 
 :root {
-  --color-bg: #F2F0EC;
-  --color-text: #1B242A;
-  --color-accent: #7EACB5;
-  --color-surface: #EDD9B0;
-  --color-muted: #6B7B82;
+  --color-bg: #F3F2EE;
+  --color-text: #1D1D1D;
+  --color-accent: #2D2DFF;
+  --color-surface: #E8E4D9;
+  --color-muted: #6B6B6B;
 
-  --font-heading: 'Syne', sans-serif;
-  --font-body: 'Urbanist', sans-serif;
+  --font-heading: 'Oswald', sans-serif;
+  --font-body: 'Quattrocento', serif;
 }
 
 body {
@@ -21,4 +21,13 @@ body {
   font-family: var(--font-body);
   font-size: 16px;
   line-height: 1.6;
+}
+
+.hero-wrapper,
+.about-inner,
+.skills-inner,
+.contact-inner {
+  max-width: 100%;
+  padding-left: 64px;
+  padding-right: 64px;
 }

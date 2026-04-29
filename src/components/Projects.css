@@ -3,11 +3,6 @@
   border-top: 0.5px solid var(--color-surface);
 }
 
-.projects-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
 .projects-header {
   display: flex;
   align-items: baseline;
